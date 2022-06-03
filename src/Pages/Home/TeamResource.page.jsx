@@ -6,7 +6,6 @@ export function TeamResource() {
 
         <div>
             <div class="header bg-white">
-                <img src="https://megalodon2202.com/assets/logo.png" alt="logo" class="header-logo" />
                 <p class="header-text">Team Resource</p>
             </div>
             <div class="side-nav-left">
