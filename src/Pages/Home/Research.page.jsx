@@ -31,6 +31,10 @@ export function Research(){
 
         <p className='lead'> <strong>NOTE: </strong> We are still in the process of documenting our on-going research.</p>
 
+        <div>
+          {/* Write here */}
+        </div>
+
       </div>
 
     </>
