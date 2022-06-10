@@ -1,0 +1,136 @@
+    .usercard__container img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 0 0.1rem;
+        margin-bottom: 0.5rem;
+    }
+
+
+    /* Team Page Styles  */
+    .team__container {
+        max-width: 1500px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 4rem;
+        height: fit-content;
+    }
+
+    .team__container .team__title {
+        font-weight: bold;
+        font-size: 6rem;
+    }
+
+    .team__container .team__subtitle {
+        font-size: 2rem;
+        color: #808080;
+        margin-bottom: 10rem;
+    }
+
+    .usercard__container {
+        max-width: 1500px;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .usercard__container img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 0 0.1rem;
+        margin-bottom: 0.5rem
+    }
+
+    .usercard__subcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usercard__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .usercard__title {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .usercard__subtitle { 
+        color: #568A96;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .usercard__icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        cursor: pointer;
+    }
+
+    .usercard__icons a svg {
+        color: #808080;
+        
+    }
+
+    .usercard__icons a {
+        display: flex;
+    }
+
+    .usercard__icons a svg:hover {
+        color: #568A96;
+    }
+    
+
+    .button_profile {
+        margin-left: 1rem;
+        background: #568A96;
+        color: whitesmoke;
+
+        padding: 0.5rem;
+        border-radius: 0.2rem;
+    }
+
+    .button_profile:hover {
+        background: transparent;
+        border: 1px solid #568A96;
+    }
+
+    @media ( max-width: 1180px ) {
+        .usercard__container {
+            grid-template-columns: 1fr 1fr ;
+    }
+}
+
+    @media ( max-width: 790px ) {
+        .usercard__container {
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
+    }
+/* End Team Page Styles */
+
+.active__sub-linkoff {
+    display: none;
+}
+
+.active__sub-link {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: rgba(27,67,76,1);
+}
