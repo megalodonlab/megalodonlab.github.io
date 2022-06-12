@@ -19,11 +19,11 @@
 
     .team__container .team__title {
         font-weight: bold;
-        font-size: 6rem;
+        font-size: 3rem;
     }
 
     .team__container .team__subtitle {
-        font-size: 2rem;
+        font-size: 1rem;
         color: #808080;
         margin-bottom: 10rem;
     }
@@ -63,13 +63,13 @@
 
     .usercard__title {
         margin: 0;
-        font-size: 2rem;
+        font-size: 1rem;
         font-weight: bold;
     }
 
     .usercard__subtitle { 
         color: #568A96;
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
     }
