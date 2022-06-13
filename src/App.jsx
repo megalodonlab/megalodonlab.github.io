@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import { WrapperScroll } from './Components/WrapperScroll/WrappScroll'
 
@@ -21,7 +21,7 @@ import { ResearchTeam } from './Research/pages/ResearchTeam.page'
 function App() {
   return (
 
-      <BrowserRouter>
+      <HashRouter>
 
         <WrapperScroll>
             <Header />
@@ -50,7 +50,7 @@ function App() {
             <Footer />
         </WrapperScroll>
       
-      </BrowserRouter>
+      </HashRouter>
 
   );
 }
