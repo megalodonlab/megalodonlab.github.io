@@ -6,15 +6,16 @@ export function ResearchPageContainer(props){
 
   return (
 
-      <div>
+      <div className='research'>
 
-       <div className="header bg-white">
+      <div className="header pt-5 text-center">
           <p className="header-text"> {props.title} </p>
-        </div>
+      </div>
+      <ResearchSideNav />
 
-       <ResearchSideNav />
+      <hr />
 
-        <div className="content">
+        <div className='py-2 pb-5 container border border-primary'>
             {props.children}
         </div>
 

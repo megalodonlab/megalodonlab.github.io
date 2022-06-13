@@ -7,7 +7,6 @@
         margin-bottom: 0.5rem;
     }
 
-
     /* Team Page Styles  */
     .team__container {
         max-width: 1500px;
@@ -133,4 +132,20 @@
     flex-direction: column;
     position: absolute;
     background: rgba(27,67,76,1);
+}
+
+/* Research Page */
+.nav {
+    display: flex;
+}
+
+.nav>li>a, .nav>li>a {
+    text-decoration: none;
+    background-color: #eee;
+    margin-right: 10px;
+    color: #000
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    color: #568A96;
 }

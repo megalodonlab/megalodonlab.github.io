@@ -2,7 +2,7 @@
   "name": "mega-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://megalodon2202.github.io",
+  "homepage": "https://megalodon2202.com",
   "dependencies": {
     "@headlessui/react": "^1.6.2",
     "@testing-library/jest-dom": "^5.16.4",
