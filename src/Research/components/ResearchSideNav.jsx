@@ -10,7 +10,7 @@ export function ResearchSideNav() {
         //     <p><Link to={LINK_ROUTES.INDEX}>Return Website</Link></p>
         // </div>
 
-        <ul class="nav d-flex py-5">
+        <ul class="nav d-flex justify-content-center py-5">
             <li class="nav-item">
                 <Link class="nav-link" to={LINK_ROUTES.RESEARCH_INDEX}>Index</Link>
             </li>

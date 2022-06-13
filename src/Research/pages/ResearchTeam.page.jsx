@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom'
 import { teams } from '../../assets/data/team.data'
-import { LINK_ROUTES } from '../../assets/js/LINK_ROUTES'
 import { UserCard } from '../../Components/UserCard/UserCard'
 
 import {ResearchPageContainer} from "./../components/ResearchPageContainer";

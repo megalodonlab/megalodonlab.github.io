@@ -26,7 +26,7 @@ export function Home() {
                             <div className="crsl-items" data-navigation="navbtns">
                                 <div className="crsl-wrap">
                                     <figure className="crsl-item">
-                                        <img src={Logo} alt="Image" className="img-responsive" />
+                                        <img src={Logo} alt="logo" className="img-responsive" />
                                     </figure>
                                 </div>
                             </div>

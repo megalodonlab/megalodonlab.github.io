@@ -149,3 +149,7 @@
 .nav>li>a:hover, .nav>li>a:focus {
     color: #568A96;
 }
+
+.justify-content-center {
+    justify-content: center;
+}
