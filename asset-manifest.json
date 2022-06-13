@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.03306e38.css",
-    "main.js": "/static/js/main.552a65ad.js",
+    "main.css": "/static/css/main.676b0a59.css",
+    "main.js": "/static/js/main.098c9101.js",
     "static/media/network.jpeg": "/static/media/network.a57bef54059fb98cdcac.jpeg",
+    "static/media/zihan.jpg": "/static/media/zihan.84d9c452fd5ef1d422c1.jpg",
     "static/media/jashan_gill.jpg": "/static/media/jashan_gill.f7b2d4a2f9bce12134c1.jpg",
     "static/media/feature-bg.jpg": "/static/media/feature-bg.2cbf133fbdc872a45482.jpg",
     "static/media/header-img-3.jpg": "/static/media/header-img-3.6a5b7922db1df3e43515.jpg",
@@ -10,11 +11,11 @@
     "static/media/logoMega.png": "/static/media/logoMega.14c3b9cd5b3b95697eed.png",
     "static/media/profile.png": "/static/media/profile.e6d124873db0f373a0da.png",
     "index.html": "/index.html",
-    "main.03306e38.css.map": "/static/css/main.03306e38.css.map",
-    "main.552a65ad.js.map": "/static/js/main.552a65ad.js.map"
+    "main.676b0a59.css.map": "/static/css/main.676b0a59.css.map",
+    "main.098c9101.js.map": "/static/js/main.098c9101.js.map"
   },
   "entrypoints": [
-    "static/css/main.03306e38.css",
-    "static/js/main.552a65ad.js"
+    "static/css/main.676b0a59.css",
+    "static/js/main.098c9101.js"
   ]
 }
