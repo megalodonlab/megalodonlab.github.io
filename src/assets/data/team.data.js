@@ -1,17 +1,17 @@
 import NonProfilePicture from '../../assets/img/profile.png'
 import ProfilePicture_Jashan from '../../assets/img/team/jashan_gill.jpg'
 import ProfilePicture_Zihan from '../../assets/img/team/zihan.jpg'
+import ProfilePicture_jayed from '../../assets/img/team/jayed-profile.jpg'
 
 export const teams = [
 
     {
         name         :   "Jayed Rafi",
         linkName     :   "jayed",
-        image        :   NonProfilePicture,
+        image        :   ProfilePicture_jayed,
         department   :   "Research",
         email        :   "mystery@megalodon2202.com",
         linkedIn     :   "https://www.linkedin.com/in/jayed-rafi/",
-        bio          :   "",
         personalSite :   "https://jayedrafi.com/",
         github       :   "https://github.com/JayedRafiProjects",
         projects     :   [
