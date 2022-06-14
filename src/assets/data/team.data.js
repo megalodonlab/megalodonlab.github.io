@@ -9,13 +9,13 @@ export const teams = [
         linkName     :   "jayed",
         image        :   NonProfilePicture,
         department   :   "Research",
-        email        :   "jayed@megalodon2202.com",
+        email        :   "mystery@megalodon2202.com",
         linkedIn     :   "https://www.linkedin.com/in/jayed-rafi/",
-        bio          :   "Hey my name is Jayed. I am a Computer Science student. I am interest in Software Engineering & Software Optimization",
+        bio          :   "",
         personalSite :   "https://jayedrafi.com/",
         github       :   "https://github.com/JayedRafiProjects",
         projects     :   [
-            "Product Evaluation",
+            "Software on Product Prediction and Evaluation",
         ],
     },
 
@@ -57,7 +57,7 @@ export const teams = [
         email        :   "zihan@megalodon2202.com",
         github       :   "https://github.com/KILLERWHOPPER",
         projects     :   [
-            "Product Evaluation",
+            "Software on Product Prediction and Evaluation",
         ],
     },
 
@@ -68,7 +68,7 @@ export const teams = [
         department   :   "Research",
         email        :   "parsh@megalodon2202.com",
         projects     :   [
-            "Product Evaluation",
+            "Software on Product Prediction and Evaluation",
         ],
     },
 
