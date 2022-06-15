@@ -9,13 +9,13 @@ export const teams = [
         name         :   "Jayed Rafi",
         linkName     :   "jayed",
         image        :   ProfilePicture_jayed,
-        department   :   "Research",
+        department   :   "Research Developer",
         email        :   "mystery@megalodon2202.com",
         linkedIn     :   "https://www.linkedin.com/in/jayed-rafi/",
+        bio          :   "I am a member of the research & development team of the Megladon Lab.   My research interests are natural language processing, artificial intelligence, data manipulation, and visualization. Currently, I am located in Manitoba, Canada.<br/>About my other activities, I am a student in the department of computer science at the University of Manitoba. And my professional involvements are research assistant and software engineering intern. </br>Feel free to connect with me via email or find my personal contact information on my portfolio."
         personalSite :   "https://jayedrafi.com/",
         github       :   "https://github.com/JayedRafiProjects",
-        projects     :   [
-            "Software on Product Prediction and Evaluation",
+        projects     :   ["Software on Product Prediction and Evaluation",
         ],
     },
 
@@ -53,7 +53,7 @@ export const teams = [
         name         :   "Zihan Zhang",
         linkName     :   "zihan",
         image        :   ProfilePicture_Zihan,
-        department   :   "Research",
+        department   :   "Research Developer",
         email        :   "zihan@megalodon2202.com",
         github       :   "https://github.com/KILLERWHOPPER",
         projects     :   [
@@ -65,7 +65,7 @@ export const teams = [
         name         :   "Parsh Parikh",
         linkName     :   "parsh",
         image        :   NonProfilePicture,
-        department   :   "Research",
+        department   :   "Research Developer",
         email        :   "parsh@megalodon2202.com",
         projects     :   [
             "Software on Product Prediction and Evaluation",
@@ -76,11 +76,8 @@ export const teams = [
         name         :   "Neel Kakadiya",
         linkName     :   "neel",
         image        :   NonProfilePicture,
-        department   :   "Content and Media Management",
+        department   :   "Content Writer and Media Manager",
         email        :   "media@megalodon2202.com",
-        projects     :   [
-            "Social Media Manager",
-        ],
     },
 
 ];
