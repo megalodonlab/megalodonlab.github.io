@@ -10,16 +10,16 @@ export function Home() {
   return (
     <>
     
-       <HeaderImage />
+       {/* <HeaderImage /> */}
 
         <section className="templatemo-container section-shadow-bottom">
             <div className="container">
-                <div className="row section-title-container">
+                {/* <div className="row section-title-container">
                     <div className="col-lg-12 text-center">
                         <h2 className="section-title">THE PLATFORM</h2>
                         <hr className="section-title-underline" />
                     </div>
-                </div>
+                </div> */}
                 <div className="row"> 
                     <div className="col-lg-6 col-md-6">
                         <div className="carousel-container">
@@ -42,7 +42,6 @@ export function Home() {
                         </div--> */}
                     </div>
                     <div className="col-lg-6 col-md-6">
-                        <h3 className="section-title-2 text-uppercase font-weight-300"><b>Megalodon</b> <span className="blue-text">2202</span></h3>
                         <p>Megalodon 2202 is an open-source platform created by students aiming to build, test and introduce new technologies. Our research and solution cover multiple areas, including automation, data processing and analysis, machine learning and accessible web technology. The research term we use in our platform indicates the pre-stage of our final product (solution). Our goal is to experiment with new ways of software integration and create innovative prototypes. We run as a non-profit open-source platform. Currently, we are privately funded and looking for sponsors to maintain our platform and research solutions. We are also open to teaming up with other research groups and finding a better solution for a better world.</p>
 						<br/>
                         <Link to={LINK_ROUTES.ABOUT} className="btn-blue-gradient">KNOW MORE</Link>

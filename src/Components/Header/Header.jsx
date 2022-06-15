@@ -26,7 +26,7 @@ export function Header() {
                     <div className="col-lg-3 col-md-4 col-sm-4 site-name-container">
                       
                         <Link to={LINK_ROUTES.INDEX}> 
-                            <h1 className="site-name">Meg Laboratory </h1>
+                            <h1 className="site-name">Megalodon Lab </h1>
                         </Link>
                     </div>
                     <div className="mobile-menu-icon">
