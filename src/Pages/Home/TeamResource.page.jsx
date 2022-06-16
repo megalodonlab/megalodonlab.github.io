@@ -8,7 +8,7 @@ export function TeamResource() {
 
         <div>
             <div class="header bg-white">
-                <p class="header-text">Team Resource</p>
+                <p class="section-title text-center">Team Resource</p>
             </div>
             <div class="side-nav-left">
                 <p><HashLink to="#welcome">Welcome to the Team</HashLink></p>

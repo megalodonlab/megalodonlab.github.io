@@ -11,7 +11,7 @@ export const LINK_ROUTES = {
     SPONSOR_US      :   "/sponsor-us",
     a_TAG_CAREER    :   "https://www.linkedin.com/company/81276827/",
 
-    TEAM_RESOURCES  :   "/esource/index",
+    TEAM_RESOURCES  :   "/resource/index",
     VERIFY          :   "https://megalodon2202.com/verify/",
     LOGIN           :   "/login",
 
@@ -21,6 +21,7 @@ export const LINK_ROUTES = {
 
 
     RESEARCH_INDEX  :   "/research/index",
+    RESEARCH_PROJ_1 :   "/research/project-1",
 
     "Dummy"         : "", 
 

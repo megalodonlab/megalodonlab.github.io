@@ -25,10 +25,10 @@ export function TeamProfile(){
             </div>
             
             <div className="col-lg-8 col-md-8 col-sm-8">
-              <p className="text-left gray-text h1"> {userData.name} </p>
-              <p className="text-left gray-text"><strong> {userData.department} </strong></p> 
-              <small  className="text-left gray-text"> {userData.email} </small>
-              <p className="justify-text gray-text"> {userData.bio}  </p>
+              <p className="text-left  h1"> {userData.name} </p>
+              <p className="text-left "><strong> {userData.department} </strong></p> 
+              <small  className="text-left "> {userData.email} </small>
+              <p className="justify-text "> {userData.bio}  </p>
             </div>
 
           </div>
@@ -36,7 +36,7 @@ export function TeamProfile(){
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-4">
               <br/>
-              <p className="text-left gray-text h4">Connect</p>
+              <p className="text-left  h4">Connect</p>
 
               { userData.email &&  ( <p className='d-flex align-items-center justify-content-center'>
                 <a href={`mailto:${userData.email}`}> <i className="fa-solid fa-envelope"></i> Email</a>
@@ -68,9 +68,9 @@ export function TeamProfile(){
             
             <div className="col-lg-8 col-md-8 col-sm-8">
               <br/>
-              <p className="text-left gray-text h4">Projects in Meg Laboratory</p>
+              <p className="text-left h4">Projects in Meg Laboratory</p>
 
-              <ul className="gray-text ul-1">
+              <ul className="">
                 
                 {
                   userData && userData.projects && userData.projects.map( project => {

@@ -61,7 +61,7 @@ export function Footer() {
 
 
         <footer className="text-center">
-            <p className="small copyright-text">Copyright © Project Megalodon Lab</p>
+            <p className="small copyright-text">Copyright © Megalodon Lab</p>
         </footer>
 
     </>

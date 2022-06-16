@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom'
 import BlogArrowLeft from '../../assets/img/blog-arrow.png'
 
 export function ProgressRight(props) {
 
     return (
-         <div className="post-excerpt post-excerpt-right">
+         <Link to={props.url} className="post-excerpt post-excerpt-right">
             <div className="post-arrow-container">
                 <img src={BlogArrowLeft} alt="arrow" />
             </div>
@@ -12,10 +13,10 @@ export function ProgressRight(props) {
                 <div className="post-date">{props.date}</div>
             </div>
             <div className="post-content">
-                <h3 className="post-title">{props.title}</h3>
+                <Link to={props.url} className="post-title">{props.title}</Link>
                 <p className="post-description">{props.description}</p>
             </div>
-        </div>
+        </Link>
     )
 
 }

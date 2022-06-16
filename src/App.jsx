@@ -13,6 +13,8 @@ import { Privacy } from './Pages/Home/Privacy.page'
 import { About } from './Pages/Home/About.page'
 import { LINK_ROUTES } from './assets/js/LINK_ROUTES'
 import { ResearchIndex } from './Research/pages/ResearchIndex.page'
+import { ResearchProject1 } from './Research/pages/Research.1.page'
+
 import { TeamResource } from "./Pages/Home/TeamResource.page";
 import { Verify } from './Pages/Home/Verify.page'
 
@@ -32,6 +34,7 @@ function App() {
               <Route path={LINK_ROUTES.ABOUT}                element={<About />} />
 
               <Route path={LINK_ROUTES.RESEARCH_INDEX}       element={<ResearchIndex />} />
+              <Route path={LINK_ROUTES.RESEARCH_PROJ_1}      element={<ResearchProject1 />} />
               
               <Route path={LINK_ROUTES.TEAM_RESOURCES}       element={<TeamResource />} />
 

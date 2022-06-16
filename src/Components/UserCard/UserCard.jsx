@@ -10,7 +10,7 @@ export function UserCard( props ) {
       <img src={props.image} alt={props.name} />
 
       <div className="usercard__content">
-        <h2 className='m-0'>{props.name}</h2>
+        <h2 className='m-0 text-center'>{props.name}</h2>
         <p className="usercard__subtitle">{props.department}</p>
         <div className="usercard__icons">
 

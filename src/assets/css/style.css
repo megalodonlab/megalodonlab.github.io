@@ -173,3 +173,16 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgb(8,41,43);
 }
+
+.project {
+    /* border-radius: 1px; */
+    background: #d4dfe1;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+label {
+    font-weight: 400;
+    margin-left: 3px;
+    text-transform: uppercase;
+}
