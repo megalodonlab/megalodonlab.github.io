@@ -1,9 +1,6 @@
 import { useParams } from 'react-router-dom'
 import { teams } from '../../assets/data/team.data';
 
-import { HeaderImage } from '../../Components/Header/HeaderImage'
-
-
 export function TeamProfile(){
 
     let params = useParams();
@@ -16,8 +13,6 @@ export function TeamProfile(){
 
   return (
     <>
-
-        <HeaderImage />
 
       <section className="templatemo-container section-shadow-bottom">
         <div className="container">

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import Logo from '../../assets/img/logoMega.png'
 import { LINK_ROUTES } from '../../assets/js/LINK_ROUTES'
-import { HeaderImage } from '../../Components/Header/HeaderImage'
 import { ProgressLeft } from '../../Components/Progress/ProgressLeft'
 import { ProgressRight } from '../../Components/Progress/ProgressRight'
 
@@ -9,17 +8,9 @@ import { ProgressRight } from '../../Components/Progress/ProgressRight'
 export function Home() {
   return (
     <>
-    
-       {/* <HeaderImage /> */}
 
-        <section className="templatemo-container section-shadow-bottom">
+        <section className="templatemo-container">
             <div className="container">
-                {/* <div className="row section-title-container">
-                    <div className="col-lg-12 text-center">
-                        <h2 className="section-title">THE PLATFORM</h2>
-                        <hr className="section-title-underline" />
-                    </div>
-                </div> */}
                 <div className="row"> 
                     <div className="col-lg-6 col-md-6">
                         <div className="carousel-container">
@@ -52,27 +43,25 @@ export function Home() {
             </div>
         </section>
 
-        <section className="templatemo-container light-gray-bg section-shadow-bottom">
+        <section className="templatemo-container light-gray-bg">
             <div className="container">
                 <div className="row section-title-container">
                     <div className="col-lg-12 text-center">
-                        <h2 className="section-title"><i className="fa fa-cogs" aria-hidden="true"></i> Solve the problem</h2>
-                        <hr className="section-title-underline" />
+                        <h2 className="section-title"> Solve Problem </h2>
                     </div>
                 </div>
                 <div className="row">
 
                     <div className="col-lg-12 col-md-12">
-                        <p className="justify-text">We are always open to working for organizations looking for a better solution for automation, data processing and visualization or web technologies. Also, if you are a Lab or a research group and want to collaborate with us, leave us a message at <a href="mailto:mystery@megalodon2202.com" target="new">mystery@megalodon2202.com</a>.</p>
+                        <p className="justify-text">We are always open to working for organizations looking for a better solution for automation, data processing and visualization or web technologies. Also, if you are a Lab or a research group and want to collaborate with us, leave us a message at <a href={LINK_ROUTES.mail_A_TAG} target="new">mystery@megalodon2202.com</a>.</p>
                         <p className="justify-text">
 						One of our mission is to take challenges and solve problems for small organizations, university clubs or groups or any non-profit firm which needs support in terms of customized technologies and can use our products for people's benefit. 
                         </p>
-                        <p className="justify-text">The most exiciting part we do in our lab is the experiment with automation technologies. We love automation and making solutions using machine learning and AI to improve product quality and work efficiency. Even though we are in our primary stage, our in-progress prototypes can solve multiple real-life problems. Interestingly all of these projects are based on our solution/libraries from start to end, which makes our solution more unique. </p>
+                        <p className="justify-text">The most exciting part we do in our lab is the experiment with automation technologies. We love automation and making solutions using machine learning and AI to improve product quality and work efficiency. Even though we are in our primary stage, our in-progress prototypes can solve multiple real-life problems. Interestingly all of these projects are based on our solution/libraries from start to end, which makes our solution more unique. </p>
 						<br/>
                     </div>
 					
                 </div>
-				<p align="center"><Link to={LINK_ROUTES.ABOUT} className="btn-transparent">LEARN MORE</Link></p>
             </div>
         </section>
 
@@ -80,20 +69,18 @@ export function Home() {
             <div className="container">
                 <div className="row section-title-container">
                     <div className="col-lg-12 text-center">
-                        <h2 className="section-title">What is happening at Meg Laboratory?</h2>
-                        <hr className="section-title-underline" />
+                        <h2 className="section-title"> Activity </h2>
                     </div>
                 </div>
                 <div className="row posts-container">
 
-                   <ProgressLeft date="1" month="May" title="Intra System Being Developed" description="We are using React JS, and Node JS to develop the System" />
-                   <ProgressRight date="10" month="May" title="Product Evaluation System" description="Using advanced AI to train computer using sample data to make predictions how a product would sell." />
+                   <ProgressLeft date="2022" month="May" title="Website - Dev Transformation" description="" />
+                   <ProgressRight date="2022" month="May" title="Software on Product Prediction and Evaluation" description="" />
                 
                 </div>
 				
             </div>
 			<br/><br/>
-			<p align="center"><Link to={LINK_ROUTES.PROGRESS} className="btn-transparent">VIEW ALL</Link></p>
         </section>
 
     </>

@@ -19,12 +19,8 @@ export const LINK_ROUTES = {
     a_TAG_LINKEDIN  :   "https://www.linkedin.com/company/81276827/",
     a_TAG_GIHUB     :   "https://github.com/megalodon2202",
 
-    PROGRESS        :   "/progress",
-
 
     RESEARCH_INDEX  :   "/research/index",
-    RESEARCH_PROG   :   "/research/progress",
-    RESEARCH_TEAM   :   "/research/team",
 
     "Dummy"         : "", 
 

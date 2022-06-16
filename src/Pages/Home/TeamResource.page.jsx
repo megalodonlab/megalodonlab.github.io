@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 import { LINK_ROUTES } from '../../assets/js/LINK_ROUTES'
 import './../../assets/css/Static.min.scss';
 
@@ -10,13 +11,13 @@ export function TeamResource() {
                 <p class="header-text">Team Resource</p>
             </div>
             <div class="side-nav-left">
-                <p><a href="#welcome">Welcome to the Team</a></p>
+                <p><HashLink to="#welcome">Welcome to the Team</HashLink></p>
 
-                <p><a href="#start">Getting started</a></p>
-                <p><a href="#help">Help Desk</a></p>
-                <p><a href="#setup">Setup Environment</a></p>
-                <p><a href="#teams">Teams</a></p>
-                <p><a href="#privacy">Privacy</a></p>
+                <p><HashLink to="#start">Getting started</HashLink></p>
+                <p><HashLink to="#help">Help Desk</HashLink></p>
+                <p><HashLink to="#setup">Setup Environment</HashLink></p>
+                <p><HashLink to="#teams">Teams</HashLink></p>
+                <p><HashLink to="#privacy">Privacy</HashLink></p>
                 <p><a href={LINK_ROUTES.INDEX}>Return Website</a></p>
             </div>
             <div class="content">
@@ -37,7 +38,7 @@ export function TeamResource() {
 
                 <p id="help" class="title1">Help Desk</p>
                 <p>You must have a proper understanding of the stacks and technologies we use on our platform. So you must resolve every issue before starting working on your assigned projects. If you face any difficulties regarding installation or access, feel free to contact us via email or Slack channel #help-desk.</p>
-                <p>Email us at <a href="mailto:mystery@megalodon2202.com">mystery@megalodon2202.com</a> with a subject "Tech Support".</p>
+                <p>Email us at <a href={LINK_ROUTES.mail_A_TAG}>mystery@megalodon2202.com</a> with a subject "Tech Support".</p>
                 <p>Or, ask on the Slack channel #help-desk</p>
                 <p id="setup" class="title1">Setup Environment</p>
                 <p class="subtitle emphasis">Communication:</p>

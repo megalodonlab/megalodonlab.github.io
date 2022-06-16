@@ -20,7 +20,7 @@ export function Header() {
     
     return (
         <>
-        <div className="header-bg">
+        <div className="header-bg mb-5">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 col-md-4 col-sm-4 site-name-container">

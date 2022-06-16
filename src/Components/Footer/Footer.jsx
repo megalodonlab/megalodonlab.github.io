@@ -16,7 +16,6 @@ export function Footer() {
                 <div className="col-lg-2 col-md-2 col-sm-6 col-6 footer-block">
                     <nav className=" templatemo-nav-2">
                         <ul>
-                            <li><Link to={LINK_ROUTES.INDEX} target="_self">Megalodon 2202</Link></li>
                             <li><Link to={LINK_ROUTES.TEAM}  target="_self">Creative Team</Link></li>
                             <li><Link to={LINK_ROUTES.PRIVACY} target="_self">Privacy</Link></li>
                             <li><Link to={LINK_ROUTES.ABOUT} target="_self">About</Link></li>
@@ -62,7 +61,7 @@ export function Footer() {
 
 
         <footer className="text-center">
-            <p className="small copyright-text">Copyright © Project Megalodon 2202</p>
+            <p className="small copyright-text">Copyright © Project Megalodon Lab</p>
         </footer>
 
     </>

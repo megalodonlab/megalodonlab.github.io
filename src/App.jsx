@@ -12,11 +12,9 @@ import { NotFound } from './Components/NotFound/NotFound'
 import { Privacy } from './Pages/Home/Privacy.page'
 import { About } from './Pages/Home/About.page'
 import { LINK_ROUTES } from './assets/js/LINK_ROUTES'
-import { Research } from './Research/pages/Research.page'
+import { ResearchIndex } from './Research/pages/ResearchIndex.page'
 import { TeamResource } from "./Pages/Home/TeamResource.page";
-import { Progress } from './Pages/Home/Progress.page'
 import { Verify } from './Pages/Home/Verify.page'
-import { ResearchTeam } from './Research/pages/ResearchTeam.page'
 
 function App() {
   return (
@@ -33,11 +31,9 @@ function App() {
               <Route path={LINK_ROUTES.PRIVACY}              element={<Privacy />} />
               <Route path={LINK_ROUTES.ABOUT}                element={<About />} />
 
-              <Route path={LINK_ROUTES.RESEARCH_INDEX}       element={<Research />} />
-              <Route path={LINK_ROUTES.RESEARCH_TEAM}        element={<ResearchTeam />} />
+              <Route path={LINK_ROUTES.RESEARCH_INDEX}       element={<ResearchIndex />} />
               
               <Route path={LINK_ROUTES.TEAM_RESOURCES}       element={<TeamResource />} />
-              <Route path={LINK_ROUTES.PROGRESS}             element={<Progress />} />
 
               <Route path={LINK_ROUTES.VERIFY}               element={<Verify />} />
 

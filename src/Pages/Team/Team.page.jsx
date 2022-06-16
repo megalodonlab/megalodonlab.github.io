@@ -1,5 +1,4 @@
 import { teams } from '../../assets/data/team.data';
-import { HeaderImage } from '../../Components/Header/HeaderImage'
 
 import { UserCard } from '../../Components/UserCard/UserCard'
 
@@ -8,10 +7,8 @@ export function Team(){
   return (
 
     <>
-      <HeaderImage />
       <section className="team__container">
-          <h1 className="team__title">Our Team</h1>
-          <p className="team__subtitle">Find out more about our cool team and their contribution at the lab !</p>
+          <h1 className="section-title text-center mb-5">Our Team</h1>
 
           <div className="usercard__container">
               {
