@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.3513544d.css",
-    "main.js": "/static/js/main.269d9d32.js",
+    "main.css": "/static/css/main.6c82d7b3.css",
+    "main.js": "/static/js/main.f4a76123.js",
     "static/media/network.jpeg": "/static/media/network.a57bef54059fb98cdcac.jpeg",
     "static/media/zihan.jpg": "/static/media/zihan.84d9c452fd5ef1d422c1.jpg",
     "static/media/jayed-profile.jpg": "/static/media/jayed-profile.ae945065c38bb9cb0d0f.jpg",
+    "static/media/neel.jpeg": "/static/media/neel.813cbd51e8bf102c0a5c.jpeg",
     "static/media/jashan_gill.jpg": "/static/media/jashan_gill.f7b2d4a2f9bce12134c1.jpg",
     "static/media/feature-bg.jpg": "/static/media/feature-bg.2cbf133fbdc872a45482.jpg",
     "static/media/header-img-3.jpg": "/static/media/header-img-3.6a5b7922db1df3e43515.jpg",
     "static/media/header-img-2.jpg": "/static/media/header-img-2.c820cfe93f58c7e85fd5.jpg",
     "static/media/logoMega.png": "/static/media/logoMega.14c3b9cd5b3b95697eed.png",
+    "static/media/rubic.png": "/static/media/rubic.0274224e13436e830b94.png",
     "static/media/profile.png": "/static/media/profile.e6d124873db0f373a0da.png",
     "index.html": "/index.html",
-    "main.3513544d.css.map": "/static/css/main.3513544d.css.map",
-    "main.269d9d32.js.map": "/static/js/main.269d9d32.js.map"
+    "main.6c82d7b3.css.map": "/static/css/main.6c82d7b3.css.map",
+    "main.f4a76123.js.map": "/static/js/main.f4a76123.js.map"
   },
   "entrypoints": [
-    "static/css/main.3513544d.css",
-    "static/js/main.269d9d32.js"
+    "static/css/main.6c82d7b3.css",
+    "static/js/main.f4a76123.js"
   ]
 }
