@@ -21,7 +21,7 @@ export const LINK_ROUTES = {
 
 
     RESEARCH_INDEX  :   "/research/index",
-    RESEARCH_PROJ_1 :   "/research/project-1",
+    RESEARCH_PROJ_1 :   "/research/sppe",
 
     "Dummy"         : "", 
 

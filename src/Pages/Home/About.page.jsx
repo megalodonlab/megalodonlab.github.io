@@ -2,7 +2,7 @@ export function About() {
     return (
 
         <>
-        <div className="container">
+        <div className="about container">
             <h1 className="section-title text-center"> About Us  </h1> 
             <br />
             <p>

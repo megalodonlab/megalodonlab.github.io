@@ -5,12 +5,11 @@ export function Privacy() {
 
         <>
 
-        <section class="privacy templatemo-container section-shadow-bottom">
+        <section class="privacy">
+            <h1 className="text-center section-title"> Privacy </h1>
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        <h1 className="text-center section-title"> Privacy </h1>
 						<h2> What information do we collect?</h2>
                         <p class="justify-text ">We may collect the personal and non-personal information of the applicants and the team members. We store information about their skills, experiences, and education. This information is used to help us proceed with applications. We might have stored any of the following information if shared with us during the application process and any form of communication using our email.</p>
 						<p class="justify-text ">Information: Name, Phone number, Email, Location, Education, Experience.</p>

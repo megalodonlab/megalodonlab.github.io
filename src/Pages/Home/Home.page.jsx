@@ -25,7 +25,7 @@ export function Home() {
                         </div>   
                     </div>
                     <div className="col-lg-6 col-md-6">
-                        <p>Megalodon 2202 is an open-source platform created by students aiming to build, test and introduce new technologies. Our research and solution cover multiple areas, including automation, data processing and analysis, machine learning and accessible web technology. The research term we use in our platform indicates the pre-stage of our final product (solution). Our goal is to experiment with new ways of software integration and create innovative prototypes. We run as a non-profit open-source platform. Currently, we are privately funded and looking for sponsors to maintain our platform and research solutions. We are also open to teaming up with other research groups and finding a better solution for a better world.</p>
+                        <p>Megalodon Lab is an open-source platform created by students aiming to build, test and introduce new technologies. Our research and solution cover multiple areas, including automation, data processing and analysis, machine learning and accessible web technology. The research term we use in our platform indicates the pre-stage of our final product (solution). Our goal is to experiment with new ways of software integration and create innovative prototypes. We run as a non-profit open-source platform. Currently, we are privately funded and looking for sponsors to maintain our platform and research solutions. We are also open to teaming up with other research groups and finding a better solution for a better world.</p>
 						<br/>
                         <Link to={LINK_ROUTES.ABOUT} className="btn-blue-gradient">KNOW MORE</Link>
                         <Link to={LINK_ROUTES.TEAM} className="btn-transparent">THE TEAM</Link>
@@ -78,9 +78,9 @@ export function Home() {
                 </div>
                 <div className="row posts-container">
 
+                   <ProgressLeft date="2022" month="June" title="Income Tracker - Budgeting Tool" description="" url="/" />
+                   <ProgressRight date="2022" month="May" title="Product Prediction and Evaluation - Software" description="" url={LINK_ROUTES.RESEARCH_PROJ_1} />
                    <ProgressLeft date="2022" month="April" title="Website - Dev Transformation" description="" url="/" />
-                   <ProgressRight date="2022" month="May" title="Software on Product Prediction and Evaluation" description="" url={LINK_ROUTES.RESEARCH_PROJ_1} />
-                   <ProgressLeft date="2022" month="June" title="Income Tracker - Personal Income budgeting" description="" url="/" />
 
                 </div>
 				

@@ -27,6 +27,7 @@ export function Header() {
                       
                         <Link to={LINK_ROUTES.INDEX}> 
                             <h1 className="site-name">Megalodon Lab </h1>
+                            <small className='site-name-subtitle'>Open Source Research & Development </small>
                         </Link>
                     </div>
                     <div className="mobile-menu-icon">

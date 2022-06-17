@@ -66,13 +66,14 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 2rem;
 } 
 
-.privacy h1, .privacy h2, .privacy h3, .privacy h4, .privacy h5, .privacy h6  {
+.privacy h1, .privacy h2, .privacy h3, .privacy h4, .privacy h5, .privacy h6,
+.about h1, .about h2, .about h3, .about h4, .about h5, .about h6  {
 	margin-bottom: 1rem;
 }
 
 section {
-	padding-top: 3em;
-	padding-bottom: 3em;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
 }
 
 hr {
@@ -212,6 +213,7 @@ hr {
 .section-title {
 	font-weight: 700;
 	font-size: 42px;
+	margin-top: 0;
 }
 .section-title-underline {
 	margin-bottom: 5px;
@@ -730,7 +732,7 @@ footer { background: #122f35; }
 	}
 	.post-arrow-container { display: none; }
 	.posts-container { background: none; }
-	.post-content { max-width: 300px; }
+	.post-content { max-width: 300px; width: 100%; }
 	.post-excerpt {
 		display: -webkit-flex;
 		display: -ms-flexbox;

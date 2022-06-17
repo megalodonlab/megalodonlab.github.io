@@ -26,8 +26,8 @@ export function TeamProfile(){
             
             <div className="col-lg-8 col-md-8 col-sm-8">
               <p className="text-left  h1"> {userData.name} </p>
-              <p className="text-left "><strong> {userData.department} </strong></p> 
-              <small  className="text-left "> {userData.email} </small>
+              <p className="text-left "><strong> {userData.department} </strong> <small> [ {userData.duration} ] </small> </p> 
+              <small  className="text-left"> <span className='hg-color'> {userData.email}  </span> | <span className='hg-color'> {userData.personalEmail && userData.personalEmail}</span> </small>
               <p className="justify-text "> {userData.bio}  </p>
             </div>
 
@@ -68,7 +68,7 @@ export function TeamProfile(){
             
             <div className="col-lg-8 col-md-8 col-sm-8">
               <br/>
-              <p className="text-left h4">Projects in Meg Laboratory</p>
+              <p className="text-left h4">Projects in Megalodon Lab</p>
 
               <ul className="">
                 
