@@ -39,7 +39,7 @@ export function Footer() {
                 <div className="col-lg-2 col-md-2 col-sm-6 col-6 footer-block">
                     <ul>
                         <li><Link to={LINK_ROUTES.TEAM_RESOURCES} target="_self">Team Resources</Link></li>
-                        <li><a href={LINK_ROUTES.VERIFY} target="blank">Verify Member</a></li>
+                        <li><Link to={LINK_ROUTES.CONTACT} target="_self">Contact Us</Link></li>
                         <li><Link to={LINK_ROUTES.LOGIN} target="_self">Login EMS</Link></li>
                     </ul>
                 </div>

@@ -12,6 +12,7 @@ export const LINK_ROUTES = {
 
     TEAM_RESOURCES  :   "/resource/index",
     VERIFY          :   "https://megalodonlab.org/verify/",
+    CONTACT         :   "/contact-us",
     LOGIN           :   "/login",
 
     mail_A_TAG      :   "mailto:office@megalodonlab.org",

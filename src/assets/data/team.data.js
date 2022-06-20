@@ -3,6 +3,7 @@ import ProfilePicture_Jashan from '../../assets/img/team/jashan_gill.jpg'
 import ProfilePicture_Zihan from '../../assets/img/team/zihan.jpg'
 import ProfilePicture_jayed from '../../assets/img/team/jayed-profile.jpg'
 import ProfilePicture_neel from '../../assets/img/team/neel.jpeg'
+import ProfilePicture_parsh from '../../assets/img/team/parsh.png'
 
 export const TEAM_NAMES = {
     "JAYED"     :   "jayed",
@@ -51,12 +52,15 @@ export const teams = [
     {
         name         :   "Felipe Viana",
         linkName     :   TEAM_NAMES.FELIPE,
-        image        :   NonProfilePicture,
+        image        :   'https://avatars.githubusercontent.com/u/45368360?v=4',
         department   :   "Web Developer",
         email        :   "felipe@megalodonlab.org",
         personalEmail:   "felipetiburcioviana@gmail.com",
         linkedIn     :   'https://www.linkedin.com/in/felipe-viana',
-        bio          :   "Hi there, my name is Felipe Viana I am a web developer.",
+        bio          :   `I am a frontend developer who loves to create web applications and mobile apps using my imagination to unlock potential and achieve the impossible, My name is Felipe Viana and that is my work purpose.
+        MY SKILLS
+        Web Development: HTML, CSS, JavaScript, jQuery, Bootstrap, React.js, MongoDB, Node.js, APIs, Git, React Native 
+        `,
         personalSite :   'https://fvportifolio.netlify.app/',
         github       :   'https://github.com/felipeact',
         projects     :   [
@@ -71,7 +75,8 @@ export const teams = [
         image        :   ProfilePicture_Zihan,
         department   :   "Research Developer",
         email        :   "zihan@megalodonlab.org",
-        personalEmail:   "felipetiburcioviana@gmail.com",
+        personalEmail:   "zihan.zhang@mail.mcgill.ca",
+        bio          :   "Hi. I am a developer at the research team, Megalodon Lab and studying Computer Engineering at McGill University. I love problem solving and making products. Connect with me via email.",
         github       :   "https://github.com/KILLERWHOPPER",
         projects     :   [
             "Software on Product Prediction and Evaluation",
@@ -82,7 +87,7 @@ export const teams = [
     {
         name         :   "Parsh Parikh",
         linkName     :   TEAM_NAMES.PARSH,
-        image        :   NonProfilePicture,
+        image        :   ProfilePicture_parsh,
         department   :   "Research Developer",
         email        :   "parsh@megalodonlab.org",
         personalEmail:   "pjparikh1023@gmail.com",
@@ -100,7 +105,8 @@ export const teams = [
         linkName     :   TEAM_NAMES.NEEL,
         image        :   ProfilePicture_neel,
         department   :   "Content Writer and Media Manager",
-        email        :   "media@megalodonlab.org",
+        email        :   "neel@megalodonlab.org",
+        github       :   "https://github.com/NeelK1609",
         bio          :   "Hi,I'm Neel Kakadiya. A Web Developer and Emerging Blockchain Developer. Currently I am pursuing Bachelors degree programs in Computer Science from University of Manitoba. I enjoy meeting people and working with them in a team environment.",
         linkedIn     :   "https://www.linkedin.com/in/neel-kakadiya-1a797a200/",
         personalEmail:   "neel16092002kakadiya@gmail.com",

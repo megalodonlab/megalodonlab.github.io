@@ -18,6 +18,7 @@ export function TeamResource() {
                 <p><HashLink to="#setup">Setup Environment</HashLink></p>
                 <p><HashLink to="#teams">Teams</HashLink></p>
                 <p><HashLink to="#privacy">Privacy</HashLink></p>
+                <p><a href={LINK_ROUTES.VERIFY} target="blank">Verify Member</a></p>
                 <p><a href={LINK_ROUTES.INDEX}>Return Website</a></p>
             </div>
             <div class="content">

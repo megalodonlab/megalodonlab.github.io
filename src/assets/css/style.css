@@ -213,8 +213,16 @@ label {
     padding: 0.2rem 1rem;
 }
 
-@media (max-width: 807px) {
+/* @media (max-width: 807px) {
     .site-name-subtitle {
         display: none;
+    }
+} */
+
+
+@media (max-width: 990px) {
+    .home-btns {
+        display: flex;
+        justify-content: center;
     }
 }
