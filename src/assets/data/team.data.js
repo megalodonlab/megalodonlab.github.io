@@ -51,12 +51,15 @@ export const teams = [
     {
         name         :   "Felipe Viana",
         linkName     :   TEAM_NAMES.FELIPE,
-        image        :   NonProfilePicture,
+        image        :   'https://avatars.githubusercontent.com/u/45368360?v=4',
         department   :   "Web Developer",
         email        :   "felipe@megalodonlab.org",
         personalEmail:   "felipetiburcioviana@gmail.com",
         linkedIn     :   'https://www.linkedin.com/in/felipe-viana',
-        bio          :   "Hi there, my name is Felipe Viana I am a web developer.",
+        bio          :   `I am a frontend developer who loves to create web applications and mobile apps using my imagination to unlock potential and achieve the impossible, My name is Felipe Viana and that is my work purpose.
+        MY SKILLS
+        Web Development: HTML, CSS, JavaScript, jQuery, Bootstrap, React.js, MongoDB, Node.js, APIs, Git, React Native 
+        `,
         personalSite :   'https://fvportifolio.netlify.app/',
         github       :   'https://github.com/felipeact',
         projects     :   [
