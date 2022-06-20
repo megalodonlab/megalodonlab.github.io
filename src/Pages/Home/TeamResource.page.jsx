@@ -38,7 +38,7 @@ export function TeamResource() {
 
                 <p id="help" class="title1">Help Desk</p>
                 <p>You must have a proper understanding of the stacks and technologies we use on our platform. So you must resolve every issue before starting working on your assigned projects. If you face any difficulties regarding installation or access, feel free to contact us via email or Slack channel #help-desk.</p>
-                <p>Email us at <a href={LINK_ROUTES.mail_A_TAG}>mystery@megalodon2202.com</a> with a subject "Tech Support".</p>
+                <p>Email us at <a href={LINK_ROUTES.mail_A_TAG}> {LINK_ROUTES.mail_OFFICE} </a> with a subject "Tech Support".</p>
                 <p>Or, ask on the Slack channel #help-desk</p>
                 <p id="setup" class="title1">Setup Environment</p>
                 <p class="subtitle emphasis">Communication:</p>

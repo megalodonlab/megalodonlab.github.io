@@ -45,7 +45,7 @@ export function Home() {
                 <div className="row">
 
                     <div className="col-lg-6 col-md-6">
-                        <p className="justify-text">We are always open to working for organizations looking for a better solution for automation, data processing and visualization or web technologies. Also, if you are a Lab or a research group and want to collaborate with us, leave us a message at <a href={LINK_ROUTES.mail_A_TAG} target="new">mystery@megalodon2202.com</a>.</p>
+                        <p className="justify-text">We are always open to working for organizations looking for a better solution for automation, data processing and visualization or web technologies. Also, if you are a Lab or a research group and want to collaborate with us, leave us a message at <a href={LINK_ROUTES.mail_A_TAG} target="new"> {LINK_ROUTES.mail_OFFICE} </a>.</p>
                         <p className="justify-text">
 						One of our mission is to take challenges and solve problems for small organizations, university clubs or groups or any non-profit firm which needs support in terms of customized technologies and can use our products for people's benefit. 
                         </p>
@@ -80,7 +80,7 @@ export function Home() {
 
                    <ProgressLeft date="2022" month="June" title="Income Tracker - Budgeting Tool" description="" url="/" />
                    <ProgressRight date="2022" month="May" title="Product Prediction and Evaluation - Software" description="" url={LINK_ROUTES.RESEARCH_PROJ_1} />
-                   <ProgressLeft date="2022" month="April" title="Website - Dev Transformation" description="" url="/" />
+                   <ProgressLeft date="2022" month="April" title="Website - Dev Transformation" description="" url={LINK_ROUTES.SOLUTION_PROJ_1} />
 
                 </div>
 				

@@ -205,6 +205,12 @@ label {
     display: block;
     margin-top: -1.7rem;
     color: #089e97;
+    font-size: 75%;
+}
+
+.clear-button {
+    border: 0;
+    padding: 0.2rem 1rem;
 }
 
 @media (max-width: 807px) {

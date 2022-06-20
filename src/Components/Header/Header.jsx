@@ -45,7 +45,7 @@ export function Header() {
                                 </li>
 
                                 <li> 
-                                    <Link to={LINK_ROUTES.SOLUTION} onClick={ ()=> setNumberN(3) } className={ number === 3 ? "active" : "" } >SOLUTION</Link>
+                                    <Link to={LINK_ROUTES.SOLUTION_INDEX} onClick={ ()=> setNumberN(3) } className={ number === 3 ? "active" : "" } >SOLUTION</Link>
                                 </li>
 
                                 <li> 

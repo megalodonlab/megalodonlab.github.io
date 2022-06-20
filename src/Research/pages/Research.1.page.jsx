@@ -1,33 +1,15 @@
-import { Link } from "react-router-dom"
-import { teams } from "../../assets/data/team.data"
-import { LINK_ROUTES } from "../../assets/js/LINK_ROUTES"
+import { RESEARCH_PROJECTS } from "../../assets/data/research_projects.data"
+import {ProjectHeader} from "./../../Components/ProjectsContainer/ProjectHeader";
 
 export function ResearchProject1() {
 
-    const names = ["jayed", "parsh", "zihan"];
-
+    const project = RESEARCH_PROJECTS[0];
 
     return (
     <div className="container mb-5 ">
-        <p className="section-title text-center">Software on Product Prediction and Evaluation (Prototype)</p>
-        <p>&nbsp;</p>
-        <p><strong>Start date</strong>: May 2022</p>
-        <p><strong>End date:</strong> Present</p>
-        <p>&nbsp;</p>
 
-        <p><strong>Team member:</strong></p>
-        <ul>
-            {teams.map( (person) => {
-                if ( names.includes(person.linkName) )
-                return (
-                    <li> 
-                        <Link to={`${LINK_ROUTES.TEAM}/${person.linkName}`} > {person.name} </Link>
-                    </li>
-                );
-            })}
-        </ul>
-
-        <p>&nbsp;</p>
+        <ProjectHeader project={project} />
+        
         <p><strong>Project - Overview:</strong></p>
         <p>This project is focused on the development of algorithms that can analyze retail data and make a prediction based on its understanding. For demonstration purposes, we have picked java as our primary language and the prototype is a desktop application capable of running on macOS, Windows, and Linux environments.</p>
         <p><strong>Project - stage 1:</strong></p>

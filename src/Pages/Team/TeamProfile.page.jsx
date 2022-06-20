@@ -25,10 +25,10 @@ export function TeamProfile(){
             </div>
             
             <div className="col-lg-8 col-md-8 col-sm-8">
-              <p className="text-left  h1"> {userData.name} </p>
-              <p className="text-left "><strong> {userData.department} </strong> <small> [ {userData.duration} ] </small> </p> 
+              <p className="text-left h1"> {userData.name} </p>
+              <p className="text-left m-0"><strong> {userData.department} </strong> <small> [ {userData.duration} ] </small> </p> 
               <small  className="text-left"> <span className='hg-color'> {userData.email}  </span> | <span className='hg-color'> {userData.personalEmail && userData.personalEmail}</span> </small>
-              <p className="justify-text "> {userData.bio}  </p>
+              <p className="justify-text mt-3"> {userData.bio}  </p>
             </div>
 
           </div>
@@ -45,20 +45,20 @@ export function TeamProfile(){
              
               { userData.personalSite &&  ( 
                 <p>
-                  <a href={userData.personalSite}><i className="fa fa-globe" aria-hidden="true"></i> Website</a>
+                  <a target="_blank" href={userData.personalSite}><i className="fa fa-globe" aria-hidden="true"></i> Website</a>
                 </p> 
                 ) }
 
               { userData.linkedIn &&  ( 
                 <p>
-                  <a href={userData.linkedIn}> <i className="fa-brands fa-linkedin"></i> LinkedIn</a>
+                  <a target="_blank" href={userData.linkedIn}> <i className="fa-brands fa-linkedin"></i> LinkedIn</a>
                 </p>
                ) }
               
 
               { userData.github &&  ( 
                 <p>
-                  <a href={userData.github}> <i className="fa-brands fa-github"></i> GitHub</a>
+                  <a target="_blank" href={userData.github}> <i className="fa-brands fa-github"></i> GitHub</a>
                 </p>
                ) }
 

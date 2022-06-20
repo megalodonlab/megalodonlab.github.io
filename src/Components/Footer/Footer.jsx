@@ -24,7 +24,7 @@ export function Footer() {
                 </div>
                 <div className="col-lg-2 col-md-2 col-sm-6 col-6 footer-block">
                     <ul>
-                        <li><Link to={LINK_ROUTES.SOLUTION} target="_self">Solution</Link></li>
+                        <li><Link to={LINK_ROUTES.SOLUTION_INDEX} target="_self">Solution</Link></li>
                         <li><Link to={LINK_ROUTES.RESEARCH_INDEX} target="_self">Research</Link></li>
                         <li><Link to={LINK_ROUTES.NEWS_N_BLOGS} target="_self">News &amp; Blog</Link></li>
                     </ul>

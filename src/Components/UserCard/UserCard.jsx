@@ -27,7 +27,7 @@ export function UserCard( props ) {
           ) } */}
         </div>
 
-        <Link className="button_profile" to={`${LINK_ROUTES.TEAM}/${props.link}`} > Profile <ArrowCircleRight className='ml-2' size={32} /> </Link>
+        <Link className="button_profile ml-0" to={`${LINK_ROUTES.TEAM}/${props.link}`} > Profile <ArrowCircleRight className='ml-2' size={32} /> </Link>
       </div>
     </div>
   )
