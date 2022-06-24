@@ -9,7 +9,7 @@ export function SolutionProject1() {
         <div className="container mb-5 ">
             <ProjectHeader project={project} />
             <div>
-                Note: We are working on this page. 
+                Note: In Development
             </div>
         </div>
     )
