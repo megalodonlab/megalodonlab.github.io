@@ -2,7 +2,6 @@ import {LINK_ROUTES} from "./../js/LINK_ROUTES";
 import { TEAM_NAMES } from "./team.data";
 
 export const SOLUTION_PROJECTS = [
-
     {
         title       :    "Web Transformation - Internet",
         startDate   :    "APRIL 2022",

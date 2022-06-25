@@ -168,6 +168,20 @@
     justify-content: center;
 }
 
+/* Solution - Web Transformation - Project 1*/
+.solution-tools span {
+    margin: 1rem;
+    margin-left: 0;
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    background: #e6e6e6;
+}
+
+.solution-image img {
+    width: 100%;
+    max-width: 600px;
+}
+
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 20px;

@@ -10,7 +10,7 @@ export function ResearchProject1() {
 
         <ProjectHeader project={project} />
         
-        <p><strong>Project - Overview:</strong></p>
+        <p><strong>Project - Introduction:</strong></p>
         <p>This project is focused on the development of algorithms that can analyze retail data and make a prediction based on its understanding. For demonstration purposes, we have picked java as our primary language and the prototype is a desktop application capable of running on macOS, Windows, and Linux environments.</p>
         <p><strong>Project - stage 1:</strong></p>
         <p>Details</p>

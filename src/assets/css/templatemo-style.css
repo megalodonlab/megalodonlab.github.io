@@ -57,7 +57,7 @@ body { font-family: 'Roboto Flex', sans-serif; }
 
 a:hover { text-decoration: none; }
 .templatemo-container {
-	max-width: 1920px;
+	/* max-width: 1920px; */
 	margin: 0 auto;
 }
 

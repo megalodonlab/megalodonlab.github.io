@@ -31,6 +31,7 @@ function App() {
       <HashRouter>
 
         <WrapperScroll>
+        
             <Header />
 
             <Routes>
@@ -50,12 +51,10 @@ function App() {
               <Route path={LINK_ROUTES.SOLUTION_PROJ_1}      element={<SolutionProject1 />} />
 
               <Route path="*" element={ <NotFound /> } />
-              
-            
             </Routes>
-            <></>
 
             <Footer />
+            
         </WrapperScroll>
       
       </HashRouter>
