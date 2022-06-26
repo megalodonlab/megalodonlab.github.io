@@ -126,6 +126,14 @@ hr {
 	        -webkit-box-align: end;
 	        align-items: flex-end;
 }
+
+.main-footer .templatemo-container .container {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .templatemo-nav {
 	margin-left: 50px;
 	text-transform: uppercase;

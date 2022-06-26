@@ -5,7 +5,7 @@ import { LINK_ROUTES } from "../../assets/js/LINK_ROUTES"
 
 export function Footer() {
   return (
-    <>
+    <div className="main-footer">
       <div className="blue-divider effect1">
             <div className="dark-blue-bg"></div>
             <div className="blue-divider-bg-graphic"></div>
@@ -64,6 +64,6 @@ export function Footer() {
             <p className="small copyright-text">Copyright © Megalodon Lab</p>
         </footer>
 
-    </>
+    </div>
   )
 }

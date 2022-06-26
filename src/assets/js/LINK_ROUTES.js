@@ -26,6 +26,7 @@ export const LINK_ROUTES = {
 
     SOLUTION_INDEX  :   "/solution/index",
     SOLUTION_PROJ_1 :   "/solution/projects/web-transformation",
+    SOLUTION_PROJ_1_GITHUB :   "https://github.com/megalodonlab/megalodonlab.github.io",
 
     "Dummy"         : "", 
 
