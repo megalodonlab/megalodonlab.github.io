@@ -11,9 +11,10 @@ export function Footer() {
             <div className="blue-divider-bg-graphic"></div>
             <div className="blue-bg"></div> 
       </div>
-      <section className="templatemo-container blue-bg footer-nav effect1">
-            <div className="container">
-                <div className="col-lg-2 col-md-2 col-sm-6 col-6 footer-block">
+      <section className="blue-bg footer-nav effect1">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-2 col-md-2 col-3 my-3">
                     <nav className=" templatemo-nav-2">
                         <ul>
                             <li><Link to={LINK_ROUTES.TEAM}  target="_self">Creative Team</Link></li>
@@ -22,28 +23,28 @@ export function Footer() {
                         </ul>
                     </nav>   
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-6 col-6 footer-block">
+                <div className="col-lg-2 col-md-2 col-3 my-3">
                     <ul>
                         <li><Link to={LINK_ROUTES.SOLUTION_INDEX} target="_self">Solution</Link></li>
                         <li><Link to={LINK_ROUTES.RESEARCH_INDEX} target="_self">Research</Link></li>
                         <li><Link to={LINK_ROUTES.NEWS_N_BLOGS} target="_self">News &amp; Blog</Link></li>
                     </ul>
                 </div>   
-                <div className="col-lg-2 col-md-2 col-sm-6 col-6 footer-block">
+                <div className="col-lg-2 col-md-2 col-3 my-3">
                     <ul>
                         <li><Link to={LINK_ROUTES.SPONSORS} target="_self">Sponsors</Link></li>
                         <li><Link to={LINK_ROUTES.SPONSOR_US} target="_self">Sponsor Us</Link></li>
                         <li><a rel="noreferrer" href={LINK_ROUTES.a_TAG_CAREER} target="_blank">Career</a></li>   
                     </ul>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-6 col-6 footer-block">
+                <div className="col-lg-2 col-md-2 col-3 my-3">
                     <ul>
                         <li><Link to={LINK_ROUTES.TEAM_RESOURCES} target="_self">Team Resources</Link></li>
                         <li><Link to={LINK_ROUTES.CONTACT} target="_self">Contact Us</Link></li>
                         <li><Link to={LINK_ROUTES.LOGIN} target="_self">Login EMS</Link></li>
                     </ul>
                 </div>
-				<div className="col-lg-2 col-md-2 col-sm-6 col-6 footer-block footer-icon"> 
+				<div className="col-lg-2 col-md-2 col-3 my-3 footer-icon"> 
 					<p>Get in touch</p>
                         <a rel="noreferrer" href={LINK_ROUTES.mail_A_TAG} target="_blank">
                             <EnvelopeSimple />
@@ -57,6 +58,8 @@ export function Footer() {
 
                 </div>                           
             </div>
+        </div>
+          
       </section>
 
 

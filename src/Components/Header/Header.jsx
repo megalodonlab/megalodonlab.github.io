@@ -23,17 +23,17 @@ export function Header() {
         <div className="header-bg mb-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-md-4 col-sm-4 site-name-container">
-                      
+                    <div className="col-lg-3 col-md-4 col-sm-12 site-name-container">  
                         <Link to={LINK_ROUTES.INDEX}> 
                             <h1 className="site-name">Megalodon Lab </h1>
                             <small className='site-name-subtitle'>Open Source Research & Development </small>
                         </Link>
                     </div>
+
                     <div className="mobile-menu-icon">
                         <i onClick={setIsActiveToggle} className="fa fa-bars"></i>
                     </div>
-                    <div className="col-lg-9 col-md-8 col-sm-8 templatemo-nav-container">
+                    <div className="col-lg-9 col-md-8 col-sm-12 templatemo-nav-container">
                         <nav className={ isActive ? 'templatemo-nav active' : 'templatemo-nav'}>
                             <ul>
                                 <li> 
